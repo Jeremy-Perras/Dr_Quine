@@ -1,8 +1,10 @@
 PYTHON3=/Users/jperras/goinfre/.brew/bin/python3
 
-COLLEEN_SRC=/Users/jperras/Desktop/Dr_Quine-42/PYTHON/Colleen.py  
-GRACE_SRC=/Users/jperras/Desktop/Dr_Quine-42/PYTHON/Grace.py  
-SULLY_SRC=/Users/jperras/Desktop/Dr_Quine-42/PYTHON/Sully.py  
+current_dir = $(shell pwd)
+
+COLLEEN_SRC=$(current_dir)/Colleen.py  
+GRACE_SRC=$(current_dir)/Grace.py  
+SULLY_SRC=$(current_dir)/Sully.py  
 
 all : Colleen Grace Sully
 
